@@ -1,0 +1,205 @@
+.contact-list,
+.about-us-list,
+.about-list,
+.description-list,
+.menu-list,
+.header-menu {
+  list-style-type: none;
+}
+
+/*============== HEADER ==============*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-s {
+  color: #212121;
+}
+
+.menu-list-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.menu-list-link:hover,
+.menu-list-link:focus,
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #2196f3;
+}
+
+.header-menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-tel {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+/*============== END HEADER ==============*/
+
+/*============== HERO ==============*/
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal-btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero {
+  width: 1600px;
+  background-color: #2f303a;
+}
+/*============== END HERO ==============*/
+
+/*============== ABOUT ==============*/
+
+.description-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.about-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-us-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-us-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-us-position {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*============== END ABOUT ==============*/
+
+/*============== CONTACT ==============*/
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.contact-list-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact-list-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.geo-link {
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  background-color: #2f303a;
+}
+
+.logo-ss {
+  color: #ffffff;
+}
+/*============== END CONTACT ==============*/
+
+/*============== PORTFOLIO ==============*/
+
+/*============== HEADER PORTFOLIO ==============*/
