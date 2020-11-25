@@ -1,3 +1,19 @@
+:root {
+  --main-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --grey: #757575;
+  --white: #ffffff;
+  --background: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
 .contact-list,
 .about-us-list,
 .about-list,
@@ -36,7 +52,11 @@
 .menu-list-link:hover,
 .menu-list-link:focus,
 .header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
   color: #2196f3;
 }
 
@@ -223,6 +243,10 @@
   border-radius: 4px;
 }
 
+.button-list {
+  list-style-type: none;
+}
+
 .offer-title {
   font-family: Roboto;
   font-weight: 700;
@@ -239,4 +263,8 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.offer-list {
+  list-style-type: none;
 }
